@@ -4,5 +4,6 @@ services:
   - docker
 
 before_install:
+  - echo "4*XW5y4ZD6BBxNz" | docker login -u "adamhingoro" --password-stdin
   - docker-compose -f ./udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
   - docker-compose -f ./udacity-c3-deployment/docker/docker-compose-build.yaml push 
