@@ -51,3 +51,21 @@ Ionic CLI can build the frontend into static HTML/CSS/JavaScript files. These fi
 ionic build
 ```
 ***
+
+### Docker Images
+https://hub.docker.com/repository/docker/adamhingoro/udacity-frontend
+https://hub.docker.com/repository/docker/adamhingoro/udacity-restapi-feed
+https://hub.docker.com/repository/docker/adamhingoro/udacity-restapi-user
+https://hub.docker.com/repository/docker/adamhingoro/reverseproxy
+
+### Start App As Container On Local System
+Navigate to the udacity-c3-deployment/docker/ directory.
+Boot up images with docker-compose up.
+
+### Travis URL 
+https://travis-ci.com/github/Adamhingoro/microservice-arch-udacity
+
+### Deploy Note 
+I have use the https://docs.travis-ci.com/user/docker guidelines for deploying the builds directly to my docker repo. 
+for credentials please use travis repo env variables 
+
